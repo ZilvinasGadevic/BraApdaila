@@ -1,0 +1,163 @@
+/* Text styles */
+
+.big {
+  font-size: 1.4rem;
+}
+
+.text-primary {
+  font-family:  'Dancing Script', cursive;
+  color: #fff;
+}
+
+.text-secondary {
+  font-family: 'Cinzel', serif;
+  color: #333;
+}
+
+.text-secondary-lt {
+  font-family: 'Cinzel', serif;
+  color: #fff;
+}
+
+/* Background */
+
+.bg-light {
+  background: #4d4d4d;
+}
+
+/* Buttons */
+
+.btn-dark {
+  cursor: pointer;
+  display: inline-block;
+  padding: 3px 25px 5px 25px;
+  color: #333;
+  background: transparent;
+  border: #bfbfbf 1px solid;
+  border-radius: 15px;
+  font-size: 1.4rem;
+  text-align: center;
+  font-family:  'Cinzel', serif;
+}
+
+.btn-light {
+  cursor: pointer;
+  display: inline-block;
+  padding: 3px 25px 5px 25px;
+  color: #fff;
+  background: transparent;
+  border: #bfbfbf 1px solid;
+  border-radius: 15px;
+  font-size: 1.4rem;
+  text-align: center;
+  font-family:  'Cinzel', serif;
+}
+
+.btn-dark:hover {
+  background: #b3b3b3;
+  color: #fff;
+}
+
+.btn-light:hover {
+  background: #333;
+  color: #fff;
+}
+
+/* Flex items */
+
+.flex-items {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.flex-items > div {
+  padding: 20px;
+}
+
+/* Flex columns */
+
+.solutions {
+  height: 100%;
+}
+
+.flex-columns .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-columns .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
+  height: 100%;
+}
+
+.flex-columns img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flex-columns .column-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.flex-columns h2 {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.flex-columns p {
+  margin: 20px 0;
+  font-size: 1.2rem;
+}
+
+/* Section header */
+
+.section-header {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 2rem;
+  font-weight: lighter;
+  margin: 20px 0;
+}
+
+.section-padding {
+  padding: 20px 20px 40px;
+}
+
+/* Flex grid */
+
+.flex-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.flex-grid .column {
+  flex: 25%;
+  max-width: 25%;
+  max-height: 25%;
+  padding: 0 4px;
+}
